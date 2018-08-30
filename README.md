@@ -1,2 +1,2 @@
 # yuhuaren12
-My link is https://github.com/J4502-FS18/yuhuaren12.
+My link is https://j4502-fs18.github.io/yuahuaren12/.
