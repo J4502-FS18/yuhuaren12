@@ -1,15 +1,9 @@
-div.container {
-    height: 10em;
-    position: relative; }
 
-div.container p {
-    margin: 0;
-    background: yellow;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%); }
+    .container1{
+      font-family: DIN, "Time New Roman", serif;
+      font-weight: 700;
+      font-size: 1em;
+      text-align: center; }
 
 
     p{
@@ -57,4 +51,29 @@ div.container p {
 
     nav a:hover, nav a:active{
       background-color:#80aaff;
+    }
+
+    img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border: none;
+    }
+
+    body{
+      background-color: #ebe3ce;
+      font-size: 16px;
+    }
+
+    ul {
+ list-style: none;
+ text-align: center;
+    }
+
+    #container{
+      background-color:#ffffff;
+      width:75%;
+      margin:0 auto;
+      padding:10px 15px;
     }
