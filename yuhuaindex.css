@@ -30,7 +30,7 @@
     }
 
     .caption{
-      color:black
+      color:black;
       font-family:'PT Serif', Georgia, "Times New Roman", sans-serif;
       font-size:0.3em;
       font-style: italic;
@@ -89,11 +89,10 @@
       width:75%;
       margin:0 auto;
       padding:10px 15px;
-       font-style: none;
     }
 
      #joke{
-       font-style: none;
+
        text-align: center;
        width: 100%;
        padding: 1px;
@@ -103,6 +102,7 @@
        font-family: 'PT Serif', Arial,"Time New Roman", serif;
        font-size: .75em;
      }
+
      a:link {
     text-decoration: none;
      }
@@ -111,7 +111,7 @@
     text-decoration: none;
     }
 
-    header{
+    #header{
       text-align: center;
       width: 100%;
       padding: 1px;
@@ -119,9 +119,7 @@
       margin: 0 auto;
     }
 
-    footer{
-
-      font-style: none;
+    #footer{
       text-align: center;
       width: 100%;
       padding: 1px;
