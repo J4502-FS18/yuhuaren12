@@ -1,0 +1,130 @@
+
+    .container1{
+      font-family: 'PT Serif',Arial, "Time New Roman", serif;
+      font-size: 1em;
+      text-align: center;
+      font-style: italic;
+      color:#666666
+      }
+
+
+    p{
+      color:#666666;
+      font-family: 'PT Serif', "Time New Roman",Arial, sans-serif;
+      font-weight: 200;
+      text-align: center;
+      font-size: 1em;
+    }
+
+
+    .first{
+      color: black;
+    }
+
+
+    h1{
+      font-family: 'Playfair Display',Arial, "Time New Roman", serif;
+      font-weight: 700;
+      font-size: 1.7em;
+      text-align: center;
+    }
+
+    .caption{
+      color:black;
+      font-family:'PT Serif', Georgia, "Times New Roman", sans-serif;
+      font-size:0.3em;
+      font-style: italic;
+      margin-top:0;
+    }
+
+    nav li{
+      list-style-type: none;
+      text-align: center;
+      width: 100%;
+      padding: 5px;
+      background-color: rgb(247,234,219);
+      margin: 0 auto;
+      border: 2px solid #ffffff;
+    }
+
+    nav ul {
+      padding:0;
+    }
+
+    nav a:link, nav a:visited{
+      color:rgb(159,151,139);
+      font-weight: bold;
+      text-decoration:none;
+      font-family: 'Playfair Display', Helvetica, Arial, sans-serif;
+    }
+
+    nav a:hover, nav a:active{
+      background-color:rgb(156, 126, 130);
+        color:white;
+    }
+
+    img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border: none;
+    }
+
+    body{
+      background-color: rgb(139, 151, 166);
+      font-size: 1em;
+    }
+
+    ul {
+ list-style: none;
+ text-align: center;
+ font-family: 'Lobster',Helvetica, Arial, sans-serif;
+ font-size:1em;
+ font-weight: 100;
+    }
+
+    #container{
+      background-color:rgb(254,249,246);
+      width:75%;
+      margin:0 auto;
+      padding:10px 15px;
+    }
+
+     #joke{
+
+       text-align: center;
+       width: 100%;
+       padding: 1px;
+       background-color: rgb(247,234,219);
+       margin: 0 auto;
+       border: none;
+       font-family: 'PT Serif', Arial,"Time New Roman", serif;
+       font-size: .75em;
+     }
+
+     a:link {
+    text-decoration: none;
+     }
+
+      a:visited {
+    text-decoration: none;
+    }
+
+    #header{
+      text-align: center;
+      width: 100%;
+      padding: 1px;
+      background-color: rgb(231,209,214);
+      margin: 0 auto;
+    }
+
+    #footer{
+      text-align: center;
+      width: 100%;
+      padding: 1px;
+      background-color: rgb(231,209,214);
+      margin: 0 auto;
+      border: none;
+      font-size: .75em;
+    }
