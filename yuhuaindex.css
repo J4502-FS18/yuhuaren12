@@ -1,4 +1,60 @@
+div.container {
+    height: 10em;
+    position: relative; }
 
-p{
-color:green;
-}
+div.container p {
+    margin: 0;
+    background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); }
+
+
+    p{
+      color:#666666;
+      font-family: Gill sans, Arial, sans-serif;
+      font-weight: 200;
+      text-align: center;
+      font-size: 16px;
+    }
+
+
+    .first{
+      font-style: italic;
+    }
+
+
+    h1{
+      font-family: DIN, "Time New Roman", serif;
+      font-weight: 700;
+      font-size: 1em;
+      text-align: center;
+    }
+
+
+    nav li{
+      list-style-type: none;
+      text-align: center;
+      width: 100%;
+      padding: 5px;
+      background-color: pink;
+      margin: 0 auto;
+      border: 2px solid #ffffff;
+    }
+
+    nav ul {
+      padding:0;
+    }
+
+    nav a:link, nav a:visited{
+      color:#ffffff;
+      font-weight: bold;
+      text-decoration:none;
+      font-family: Geneva, Helvetica, Arial, sans-serif;
+    }
+
+    nav a:hover, nav a:active{
+      background-color:#80aaff;
+    }
