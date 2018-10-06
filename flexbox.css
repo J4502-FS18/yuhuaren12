@@ -1,0 +1,32 @@
+
+
+
+.container {
+  display: flex;
+flex-direction: row;
+
+}
+
+@media (max-width: 600px) {
+	.container {
+		flex-direction: column;
+		justify-content: center;
+    flex-wrap: wrap;
+	}
+
+
+.item{
+ justify-content: center;
+	flex:0 1 auto;
+  align-self: center;
+
+}
+}
+
+/*@media (min-width: 80px) {
+
+	.item-1 {
+		margin-right: ;
+	}
+}
+*/
