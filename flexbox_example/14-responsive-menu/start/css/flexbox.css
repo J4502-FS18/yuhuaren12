@@ -5,8 +5,16 @@
 .container {
 	display: flex;
 	flex-direction: column;
+	flex-direction:row;
+	justify-content:center;
 }
 
+@media {min-width:599px}{
 
+
+@media {min-width:799px}{
+.item-1{
+	margin-right:auto;
+}
 
 }
