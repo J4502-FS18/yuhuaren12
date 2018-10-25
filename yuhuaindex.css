@@ -1,10 +1,12 @@
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 
 * {
 	box-sizing: border-box;
+	align-items: center;
 }
-body {
-	font-family: 'Lobster',Helvetica, Arial, sans-serif;
+.intro {
+	font-family: 'PT Serif', "Time New Roman", Arial, sans-serif;
 	color: #fff;
 	background: #e8e9e9;
 	padding-left: 10%;
@@ -12,6 +14,11 @@ body {
   text-align: center;
 }
 
+
+
+
+h4
+{color:black;}
 
 .container {
   display: flex;
@@ -24,8 +31,16 @@ body {
   align-content: flex-start;
   justify-content: center;
   flex-wrap: wrap;
+	text-align: center;
 }
 
+.bgm h4, article h4{
+	display:none;
+}
+
+.intro h4{
+	display:block;
+}
 
 .item {
   width: 150px;
@@ -58,7 +73,7 @@ body {
     }
 
 
-    .first{
+    #first{
       color: black;
     }
 
@@ -70,7 +85,7 @@ body {
       text-align: center;
     }
 
-    .caption{
+    #caption{
       color:black;
       font-family:'PT Serif', Georgia, "Times New Roman", sans-serif;
       font-size:0.3em;
@@ -101,12 +116,16 @@ body {
         color:white;
     }
 
-    img {
+    .authorbox img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
-    border: none;
+		padding: 5px;
+		background: rgb(231,209,214);
+		border-radius: 30px;
+		margin: 20px auto;
+		box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
     }
 
     body{
@@ -114,36 +133,42 @@ body {
       font-size: 1em;
     }
 
-    ul {
- list-style: none;
- text-align: center;
- font-family: 'Lobster',Helvetica, Arial, sans-serif;
- font-size:1em;
- font-weight: 100;
- color:#666666;
-    }
 
     #container{
       background-color:rgb(254,249,246);
-      width:75%;
+      width:55%;
       margin:0 auto;
       padding:10px 15px;
       color:#666666;
       font-family: 'PT Serif', Arial,"Time New Roman", serif;
     }
 
-     #joke{
+     .joke{
 
        text-align: center;
-       width: 100%;
+       width: 50%;
        padding: 1px;
-       background-color: rgb(247,234,219);
+       background-color: rgb(254,249,246);
        margin: 0 auto;
        border: none;
        font-family: 'PT Serif', Arial,"Time New Roman", serif;
        font-size: .75em;
        color:#666666;
+			 margin-top: 50px;
+			 border-radius: 30px;
+			 margin: 20px auto;
+			 box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
      }
+
+		 ul {
+	list-style: none;
+	text-align: center;
+	font-family: 'Lobster',Helvetica, Arial, sans-serif;
+	font-size:1em;
+	font-weight: 100;
+	color:#666666;
+		 }
+
 
      a:link {
     text-decoration: none;
@@ -157,11 +182,12 @@ body {
 
     #header{
       text-align: center;
-      width: 100%;
-      padding: 1px;
+      width: 95%;
+      padding:0;
       background-color: rgb(231,209,214);
-      margin: 0 auto;
+      margin: auto;
       color:#666666;
+      max-width: 700px;
     }
 
     #footer{
@@ -169,8 +195,221 @@ body {
       width: 100%;
       padding: 1px;
       background-color: rgb(231,209,214);
-      margin: 0 auto;
+      margin: 20px;
       border: none;
       font-size: .75em;
       color: #666666
     }
+
+		.authorbox img {
+		display: none;
+		}
+
+		.bgm {
+		display: none;
+		}
+
+		article {
+		margin-bottom: 0.7em;
+		border-bottom: 1px solid #ccc;
+		}
+
+		article:last-of-type {
+		border-bottom: none;
+		}
+
+
+@media screen and (min-width: 200px) {
+
+    nav ul {
+        flex-flow: row;
+        justify-content: space-between;
+    }
+
+
+		img {
+			width:100%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		#footer{
+		margin-left: auto;
+		margin-right: auto;
+		}
+.intro{
+	max-width: 300px;
+  margin: auto;
+}
+
+
+}
+
+@media screen and (min-width: 600px) {
+
+    #container {
+        width: 100%;
+    }
+
+    .authorbox img {
+      display: block;
+      width: 70%;
+      margin-top: 0.5em;
+    }
+
+    .intro{
+			max-width: 700px;
+		}
+
+
+
+    .authorbox {
+      width: 25%;
+      max-width: 200px;
+      float: left;
+      margin-right: 0;
+    }
+
+		.gallery img{
+			width: 100%;
+		}
+
+
+			.gallery {
+				display: grid;
+				grid-template-columns: 1fr 1fr 1fr 1fr ;
+				grid-gap: 10px;
+				grid-template-areas:
+						"a b c d"
+						"a b c d"
+						"a b c d";
+}
+
+
+
+#a {
+grid-area:a;
+}
+
+
+#b {
+grid-area:b;
+}
+
+
+
+#c {
+grid-area:c;
+}
+
+
+
+#d {
+grid-area:d;
+}
+
+
+}
+
+
+@media screen and (min-width:900px) {
+
+
+	article {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr ;
+		grid-gap: 10px;
+		grid-template-areas:
+				"a b ."
+				"a b c"
+				"a b .";
+
+
+	}
+
+
+	.authorbox {
+		width: 400px;
+		grid-area: a;
+	}
+
+	.intro {
+		grid-area: b;
+		text-align: center;
+		border-radius: 30px;
+		margin: auto;
+		box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
+	}
+
+	.bgm {
+		margin-top: auto;
+		margin-bottom: auto;
+		grid-area: c;
+		display: block;
+	}
+
+
+
+
+.gallery {
+width: 800px;
+margin: 0 auto;
+padding: 1px;
+background: rgb(139, 151, 166);
+margin-top: 50px;
+}
+
+.gallery > div {
+position: relative;
+float: left;
+padding: 3px;
+}
+
+.gallery > div > img {
+display: block;
+width: 250px;
+
+}
+}
+
+
+
+@media screen and (min-width:1200px) {
+
+
+	article {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr ;
+		grid-gap: 10px;
+		grid-template-areas:
+				"a b ."
+				"a b c"
+				"a b .";
+
+
+}
+
+				.gallery {
+				width: 1000px;
+				margin: 0 auto;
+				padding: 1px;
+				background: rgb(139, 151, 166);
+				margin-top: 50px;
+				}
+
+				.gallery > div {
+				position: relative;
+				float: left;
+				padding: 3px;
+				}
+
+				.gallery > div > img {
+				display: block;
+				width: 550px;}
+
+
+        .authorbox img{
+         width:100%;
+         margin:auto;
+				}
+				}
