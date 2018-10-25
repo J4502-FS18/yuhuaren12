@@ -262,7 +262,7 @@ h4
 
     .authorbox {
       width: 25%;
-      max-width: 200px;
+      max-width: 300px;
       float: left;
       margin-right: 0;
     }
@@ -328,6 +328,7 @@ grid-area:d;
 	.authorbox {
 		width: 400px;
 		grid-area: a;
+		margin: auto;
 	}
 
 	.intro {
@@ -406,7 +407,7 @@ width: 250px;
 
 
         .authorbox img{
-         width:100%;
+         width:80%;
          margin:auto;
 				}
 				}
