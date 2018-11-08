@@ -411,3 +411,59 @@ width: 250px;
          margin:auto;
 				}
 				}
+
+				nav ul li {
+				    display: block;
+				    border-top: 1px #79896d solid;
+				}
+
+				nav a {
+				    color: #f8ecc2;
+				    display: block;
+				    text-decoration: none;
+				}
+
+
+				.menu-trigger {
+				    order: 1;
+				    font-size: 1.75em;
+				    width: 2em;
+
+				}
+
+
+				nav ul {
+				    display: none;
+				}
+
+				@media screen and (min-width: 700px){
+
+				    nav ul {
+				        display: flex;
+				    }
+
+				    nav ul li {
+				        border-top: none;
+				    }
+
+				    .menu-trigger {
+				        display: none;
+				    }
+
+				    nav {
+				        order: 2;
+				    }
+
+				}
+
+
+
+	.menu-trigger{
+		background-color:rgb(121,116,129);
+		text-align: center;
+	}
+
+
+	nav ul li {
+			border-top: none;
+	}
